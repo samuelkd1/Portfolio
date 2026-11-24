@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KPI Status Colour Key</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>KPI Status Colour Key</h1>
+    <h2>What each colour means on a performance dashboard</h2>
+
+    <h2 class="color-title" id="red">Off Track</h2>
+    <p>Below target. Needs action now.</p>
+    <img src="./assets/images/red.png" alt="red status swatch" />
+
+    <h2 class="color-title" id="amber">At Risk</h2>
+    <p>Close to missing target. Needs a recovery plan.</p>
+    <img src="./assets/images/orange.png" alt="amber status swatch" />
+
+    <h2 class="color-title" id="yellow">Monitor</h2>
+    <p>Within tolerance, but trending the wrong way.</p>
+    <img src="./assets/images/yellow.png" alt="yellow status swatch" />
+
+    <h2 class="color-title" id="green">On Track</h2>
+    <p>Meeting target.</p>
+    <img src="./assets/images/green.png" alt="green status swatch" />
+
+    <h2 class="color-title" id="blue">Complete</h2>
+    <p>Target met or exceeded. No further action needed.</p>
+    <img src="./assets/images/blue.png" alt="blue status swatch" />
+  </body>
+</html>
+
+<!--
+TODOs
+IMPORTANT: You should not need to make ANY CHANGES to the HTML above.
+All code should be written in your CSS file.
+Note: CSS only accepts the US spelling "color". Writing "colour" in CSS won't work.
+
+1. Create a file called style.css in this folder.
+   It's already linked in the <head>, so the page will pick it up as soon as it exists.
+
+2. Use CSS to colour each status title to match its meaning.
+   Hint: the id on each title tells you its colour (#red, #amber, #yellow, #green, #blue).
+   There's no CSS colour called "amber", so use orange for now.
+
+3. Use CSS to change all the status titles to have "font-weight: normal;"
+   Hint: all five share the class "color-title", so one rule covers them all.
+
+4. Use CSS (not HTML) to make all the swatch images 200px high and 200px wide.
+   Hint:
+   https://developer.mozilla.org/en-US/docs/Web/CSS/height
+   https://developer.mozilla.org/en-US/docs/Web/CSS/width
+
+5. Make every title readable (optional, but worth doing for a portfolio piece).
+   Plain orange and yellow text is very hard to read on a white background.
+   Replace them with darker hex codes:
+     #amber  -> #b45309
+     #yellow -> #8a6d00
+   You can check any colour at https://webaim.org/resources/contrastchecker/
+   (aim for a contrast ratio of at least 4.5:1).
+
+6. Add it to your portfolio (https://samuelkd1.github.io/Portfolio/)
+   - In your Portfolio repo, create a folder: public/status-colour-key/
+   - Copy index.html, style.css and the assets folder from this project into it.
+   - Open public/status-colour-key/index.html in the browser and check that the images and colours still load.
+   - Take a screenshot and save it in the Portfolio repo as assets/images/status-colour-key.png
+   - In the Portfolio's index.html, add an <h3> link to ./public/status-colour-key/index.html
+     with the screenshot underneath (height="200"), the same way you added your other projects.
+   - Commit and push, then check the live site.
+-->

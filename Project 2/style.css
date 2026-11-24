@@ -1,0 +1,39 @@
+ 
+ 
+ /* Use CSS to colour each status title to match its meaning.
+   Hint: the id on each title tells you its colour 
+   (#red, #amber, #yellow, #green, #blue).
+   There's no CSS colour called "amber", 
+   so use orange for now.*/
+
+#red{
+    color: red;
+}
+#amber{
+    color: #b45309;
+}
+#yellow{
+    color: #8a6d00;
+}
+#green{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+
+/*Use CSS to change all the status titles to have 
+"font-weight: normal;"
+   Hint: all five share the class "color-title", 
+   so one rule covers them all.*/
+   
+.color-title{
+    font-weight: normal ;
+}
+/*Use CSS (not HTML) to make all the swatch images 200px
+ high and 200px wide*/
+img{
+height: 200px ;
+width: 200px;
+}
+
